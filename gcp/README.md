@@ -11,7 +11,7 @@ To proceed with the BYOC setup:
 	```sh
 	./byoc_setup.py -p PROJECT_ID -n NAME -r REGION -c 10.0.0.0/16
 	```
-
+	
 	* `PROJECT_ID` is the value from the **ID** field on your project's **Settings** page.
 	* `NAME` is the value of the **Name** field from the **Configure network** section of the dialog window.
 	* `REGION` is the name of the region from the drop-down menu of the dialog window.
