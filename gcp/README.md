@@ -4,9 +4,9 @@ To proceed with the BYOC setup:
 
 1. Copy the command from the DoubleCloud **Add external network** dialog.
 
-1. Paste the command to this shell. 
+1. Paste the command to this shell.
 
-	The command has the following structure: 
+	The command has the following structure:
 
 	```sh
 	./byoc_setup.py -p PROJECT_ID -n NAME -r REGION -c 10.0.0.0/16
