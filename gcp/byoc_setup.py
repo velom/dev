@@ -42,7 +42,7 @@ def main():
     parser.add_argument('-n', '--name', help="Name of BYOC installation")
     parser.add_argument('-r', '--region', help="GCP region")
     parser.add_argument('-c', '--cidr', help="IPv4 CIDR", default="10.0.0.0/16")
-    parser.add_argument('-o', '--output-only', action='store_true', help="Get only output instead of resources creation", dest='output')
+    parser.add_argument('-o', '--output-only', action='store_true', help="Get the output from previously created resources", dest='output')
     args = parser.parse_args()
 
     set_project(args)
