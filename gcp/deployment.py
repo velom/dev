@@ -97,7 +97,7 @@ def generate_config(context):
     service_account = ServiceAccount('sa', {
         'accountId': f'dc-byoc-{name}',
         'displayName': f'DoubleCloud BYOC',
-    }, ['controlplane@byoa-doublecloud.iam.gserviceaccount.com'])
+    }, ['controlplane-preprod@byoa-doublecloud.iam.gserviceaccount.com'])
 
     role = Role('role', {
         'parent': 'projects/' + context.env['project'],
